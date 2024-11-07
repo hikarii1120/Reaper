@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Clone the repository:
 
 
-git clone https://github.com/hikari1120/reaper.git
+git clone https://github.com/hikarii1120/Reaper
 cd reaper
 Install required libraries:
 
