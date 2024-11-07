@@ -18,26 +18,22 @@ manuf
 tabulate
 Install these dependencies by running:
 
-bash
-Copiar código
+
 pip install -r requirements.txt
 🚀 Installation
 Clone the repository:
 
-bash
-Copiar código
+
 git clone https://github.com/hikari1120/reaper.git
 cd reaper
 Install required libraries:
 
-bash
-Copiar código
+
 pip install -r requirements.txt
 🔧 Usage
 Run the scanner with a target IP or IP range using the following command:
 
-bash
-Copiar código
+
 python reaper.py -t <target-ip-or-range> [-i <interface>] [-s <filename>] [-c <interval>]
 📝 Options
 -t, --target: (Required) Target IP or IP range to scan.
@@ -47,18 +43,15 @@ python reaper.py -t <target-ip-or-range> [-i <interface>] [-s <filename>] [-c <i
 💻 Example Commands
 Basic Scan:
 
-bash
-Copiar código
+
 python reaper.py -t 192.168.1.1/24
 Continuous Scan (with a 10-second interval):
 
-bash
-Copiar código
+
 python reaper.py -t 192.168.1.1/24 -c 10
 Save Scan Results:
 
-bash
-Copiar código
+
 python reaper.py -t 192.168.1.1/24 -s scan_results.txt
 📊 Output
 The scanner displays results in a formatted table showing the IP, MAC Address, and Manufacturer (when available).
